@@ -2,7 +2,6 @@
 This application is a forums website for San Francisco University High School.
 
 ## Functions
-This application should be able to
 1. Allow users to post in various topics
 2. Only allow admins to create users, rather than the individual users themselves
 3. Allow individual users to create groups and topics as they see fit
@@ -12,7 +11,7 @@ This application should be able to
 7. Allow commenting on posts
 8. Searching for site content
 
-*Models*
+## Models
 1. User
   - Types
     - Admin
