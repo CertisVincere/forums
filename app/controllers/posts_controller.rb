@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-
+  before_action :authenticate_user!, only: [:new, :create]
   def index
   end
 
@@ -15,7 +15,7 @@ class PostsController < ApplicationController
       render 'new', notice: "There was an error. Please try again."
     end
   end
-  
+
   private
 
   def post_params
